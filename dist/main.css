@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.task {
+    width: 400px;
+    padding: 30px;
+    background: #444444;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px 0 0 0;
+    position: relative;
+}
+
+.task__button-remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.task__description {
+    color: #fff;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
